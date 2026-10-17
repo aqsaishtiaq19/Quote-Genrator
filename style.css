@@ -1,5 +1,29 @@
-*{
+
+/* Reset default browser spacing */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Body background */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, purple, black, violet);
+    font-family: Arial, sans-serif;
+}
+
+/* Quote Generator container */
+.genrator {
+    padding: 40px;
+    width: 700px;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+    background: wheat;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.15);
 }
