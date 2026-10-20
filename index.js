@@ -9,3 +9,11 @@ while (age <=3){
     console.log(count);count++;
 }
 const api_url= "https://dummyjson.com/quotes/random";
+
+async function getquote(url) {
+    const response = await fetch(url);
+    var data= await response.json();
+    console.log(data);
+    
+}
+getquote(api_url);
