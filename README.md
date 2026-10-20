@@ -82,10 +82,10 @@ No installation or build step needed.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/aqsaishtiaq19/<your-repo-name>.git
+git clone https://github.com/aqsaishtiaq19/Quote-Genrator>.git
 
 # 2. Go into the folder
-cd <your-repo-name>
+cd <https://github.com/aqsaishtiaq19/Quote-Genrator>
 
 # 3. Open index.html in your browser
 ```
@@ -100,15 +100,6 @@ Quotes are fetched from: `[https://dummyjson.com/quotes/random]`
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Copy-to-clipboard button
-- [ ] Quote categories
-- [ ] Dark mode toggle
-- [ ] Error message when the API is unreachable
-- [ ] Save favourite quotes
-
----
 
 ## 🤝 Contributing
 
