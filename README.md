@@ -20,7 +20,6 @@
 <img width="905" height="446" alt="image" src="https://github.com/user-attachments/assets/52620fc6-9bca-42f1-948c-643606dad145" />
 
 
-> Add a screenshot of your app as `screenshot.png` in the project folder.
 
 ---
 
