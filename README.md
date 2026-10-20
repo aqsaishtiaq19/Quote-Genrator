@@ -1,71 +1,133 @@
-# Quote Generator
+<div align="center">
 
-A simple web app that shows a random quote each time you click a button. You can also share the quote on Twitter/X. Built with plain HTML, CSS, and JavaScript, with no frameworks.
+# 💬 Quote Generator
 
-## Live Demo
+**A clean, lightweight web app that serves a fresh random quote with one click.**
 
-https://velvety-cucurucho-8c5fcd.netlify.app
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://velvety-cucurucho-8c5fcd.netlify.app)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## Features
+[View Live Demo](https://velvety-cucurucho-8c5fcd.netlify.app) · [Report a Bug](../../issues) · [Request a Feature](../../issues)
 
-- Shows a random quote and its author
-- "New Quote" button loads a fresh quote without reloading the page
-- "Tweet" button shares the current quote on Twitter/X
-- Loading text while the quote is being fetched
-- Responsive layout
+</div>
 
-## Built With
+---
 
-- HTML5
-- CSS3
-- JavaScript (Fetch API, async/await, DOM manipulation)
-- Quotes fetched from [API NAME]
+## 📸 Preview
 
-## How It Works
+<img width="905" height="446" alt="image" src="https://github.com/user-attachments/assets/52620fc6-9bca-42f1-948c-643606dad145" />
 
-1. When the page loads, JavaScript sends a request to the quotes API.
-2. The quote text and author are inserted into the page.
-3. Clicking **New Quote** calls the API again and updates the page.
-4. Clicking **Tweet** opens a Twitter/X share window with the quote pre-filled.
 
-## Project Structure
+> Add a screenshot of your app as `screenshot.png` in the project folder.
+
+---
+
+## 📖 About the Project
+
+Quote Generator fetches a random quote and its author from an API and displays it instantly, with no page reload. Users can request a new quote or share the current one on Twitter/X.
+
+I built this project to practice working with APIs and the DOM using vanilla JavaScript, with no frameworks or libraries.
+
+---
+
+## ✨ Features
+
+- 🔄 Fetches a new random quote with one click
+- 👤 Displays the quote together with its author
+- 🐦 Share any quote on Twitter/X
+- ⏳ Loading state while data is being fetched
+- 📱 Responsive design for mobile and desktop
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure and semantic markup |
+| CSS3 | Styling and responsive layout |
+| JavaScript (ES6+) | API calls, DOM updates, event handling |
+| [API NAME] | Source of random quotes |
+| Netlify | Hosting and deployment |
+
+---
+
+## 🧠 Key Concepts Practiced
+
+- Fetching data with the **Fetch API** and `async/await`
+- **DOM manipulation** to update quote and author dynamically
+- **Event handling** with button click events
+- Building a **share link** with `encodeURIComponent` and `window.open`
+- Deploying a static site on **Netlify**
+
+---
+
+## 📂 Project Structure
 
 ```
 quote-generator/
-├── index.html
-├── style.css
-├── index.js
-└── images.png
+├── index.html      # Page markup
+├── style.css       # Styles
+├── index.js        # API logic and event handlers
+├── images.png      # Twitter icon
+└── screenshot.png  # README preview
 ```
 
-## Run Locally
+---
 
-1. Clone the repository
+## 🚀 Getting Started
+
+No installation or build step needed.
+
 ```bash
-   git clone https://github.com/aqsaishtiaq19/<your-repo-name>.git
+# 1. Clone the repository
+git clone https://github.com/aqsaishtiaq19/<your-repo-name>.git
+
+# 2. Go into the folder
+cd <your-repo-name>
+
+# 3. Open index.html in your browser
 ```
-2. Open the folder
-```bash
-   cd <your-repo-name>
-```
-3. Open `index.html` in your browser (or use the Live Server extension in VS Code).
 
-## What I Learned
+Tip: use the **Live Server** extension in VS Code for auto-reload while editing.
 
-- Fetching data from an API using JavaScript
-- Updating the DOM dynamically
-- Handling button events
-- Deploying a static site on Netlify
+---
 
-## Future Improvements
+## 🔌 API Used
 
-- Copy-to-clipboard button
-- Quote categories
-- Dark mode
-- Error message if the API fails
+Quotes are fetched from: `[https://dummyjson.com/quotes/random]`
 
-## Author
+---
+
+## 🗺️ Roadmap
+
+- [ ] Copy-to-clipboard button
+- [ ] Quote categories
+- [ ] Dark mode toggle
+- [ ] Error message when the API is unreachable
+- [ ] Save favourite quotes
+
+---
+
+## 🤝 Contributing
+
+Suggestions and improvements are welcome. Fork the repo, create a branch, and open a pull request.
+
+---
+
+## 👩‍💻 Author
 
 **Aqsa Ishtiaq**
-- GitHub: [aqsaishtiaq19](https://github.com/aqsaishtiaq19)
-- LinkedIn: [Aqsa Ishtiaq](https://linkedin.com/in/aqsa-ishtiaq-67523627a)
+
+[![GitHub](https://img.shields.io/badge/GitHub-aqsaishtiaq19-181717?style=flat&logo=github)](https://github.com/aqsaishtiaq19)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aqsa%20Ishtiaq-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/aqsa-ishtiaq-67523627a)
+
+---
+
+<div align="center">
+
+⭐ If you like this project, give it a star!
+
+</div>
