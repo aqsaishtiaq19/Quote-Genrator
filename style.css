@@ -20,7 +20,7 @@ body {
 /* Quote Generator container */
 .genrator {
     padding: 40px;
-    width: 700px;
+    width: 1100px;
     max-width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -74,17 +74,15 @@ body {
     text-align: right;
 }
 
-/* Line before author name */
+/* Line immediately before author name */
 .genrator span::before {
     content: "";
+    display: inline-block;
     width: 30px;
     height: 2px;
-    position: absolute;
-    left: auto;
-    right: calc(100% + 8px);
-    top: 50%;
-    transform: translateY(-50%);
     background-color: rgb(63, 34, 105);
+    vertical-align: middle;
+    margin-right: 8px;
 }
 
 /* Button container */
@@ -122,7 +120,19 @@ body {
     transform: translateY(-2px);
 }
 
-/* Responsive design for mobile screens */
+/* Twitter button image */
+.genrator button img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* Tweet button */
+.genrator button:nth-child(2) {
+    background-color: transparent;
+    color: #333;
+}
+
+/* Responsive design */
 @media (max-width: 480px) {
     .genrator {
         padding: 25px 20px;
@@ -141,13 +151,4 @@ body {
     .genrator button {
         width: 100%;
     }
-}
-.genrator button img{
-    width: 50px;
-    margin-right: 10px;
-}
-.genrator button:nth-child(2){
-    background-color: transparent;
-    color: #333;
-    
 }
