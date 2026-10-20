@@ -1,21 +1,27 @@
-let count = 1;
+// let count = 1;
 
-while (count <= 3) {
-    console.log(count);
-    count++;
-}
-let age =5;
-while (age <=3){
-    console.log(count);count++;
-}
-const quote = document.getElementbyId("quote");
-const author = document.getElementbyId("author");
-const api_url= "https://dummyjson.com/quotes/random";
+// while (count <= 3) {
+//     console.log(count);
+//     count++;
+// }
+// let age =5;
+// while (age <=3){
+//     console.log(count);count++;
+// }
+
+const quote = document.getElementById("quote");
+const author = document.getElementById("author");
+
+const api_url = "https://dummyjson.com/quotes/random";
 
 async function getquote(url) {
     const response = await fetch(url);
-    var data= await response.json();
+    const data = await response.json();
+
     console.log(data);
-    
+
+    quote.innerHTML = data.quote;
+    author.innerHTML = data.author;
 }
+
 getquote(api_url);
