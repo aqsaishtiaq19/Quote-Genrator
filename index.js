@@ -8,6 +8,8 @@ let age =5;
 while (age <=3){
     console.log(count);count++;
 }
+const quote = document.getElementbyId("quote");
+const author = document.getElementbyId("author");
 const api_url= "https://dummyjson.com/quotes/random";
 
 async function getquote(url) {
